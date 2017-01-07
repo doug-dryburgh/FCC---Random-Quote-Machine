@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Handlee');
+ html,
+ body {
+     height: 100%;
+ }
+ 
+ #pageContainer {
+     width: 100%;
+     min-height: 100%;
+     background: blue;
+     /* Unsupported */
+     background: linear-gradient(to bottom right, blue, red, yellow);
+ }
+ 
+ .header {
+     background: linear-gradient(black, rgba(40, 40, 40, 1), black);
+     margin: 75px auto 10px auto;
+     padding: 5px 0px 5px 0px;
+     border-radius: 5px;
+ }
+ 
+ .quoteContent {
+     background: linear-gradient(black, rgba(40, 40, 40, 1), black);
+     margin: 20px auto 10px auto;
+     padding: 5px 5px 5px 5px;
+     border-radius: 5px;
+ }
+ 
+ .footer {
+     height: 50px;
+     margin: 50px auto 10px auto;
+ }
+ 
+ .buttons {
+     background-color: rgba(0, 0, 0, 0.7);
+     width: 150px;
+     margin: 10px auto 10px auto;
+     padding: 1px 0px 5px 0px;
+     margin: auto;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ 
+ .buttonText {
+     color: white;
+     text-align: center;
+     font-family: 'Coming Soon', cursive;
+     font-size: 1.5em;
+ }
+ 
+ .titleStyle {
+     color: white;
+     text-align: center;
+     font-family: 'Coming Soon', cursive;
+     font-size: 3em;
+ }
+ 
+ .footerStyle {
+     color: white;
+     text-align: center;
+     font-family: 'Coming Soon', cursive;
+     font-size: 1em;
+ }
+ 
+ .contentStyle {
+     color: white;
+     text-align: center;
+     font-family: 'Handlee', cursive;
+     font-size: 2.5em;
+ }
+ 
+ a:hover,
+ a:visited,
+ a:link,
+ a:active {
+     text-decoration: none;
+ }
