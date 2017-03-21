@@ -1,43 +1,48 @@
 <html>
-    <head>
-    <title>FCC - Random Quote Machine</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    
-    <body>
 
-<div id="pageContainer" class="container">
-    <!-- Header -->
-    <div class="row">
-    <div id="title" class="col-xs-12 col-sm-6 col-sm-offset-3 header">
-        <h1 class="titleStyle">Random Quote Machine</h1> </div></div>
-    <!-- Quote -->
-    <div class="row">
-    <div id="inspiringQuote" class="col-xs-12 col-sm-8 col-sm-offset-2 quoteContent">
-        <h2 id="quote" class="contentStyle"></h2>
-        <h3 id="author" class="contentStyle"></h3> </div></div>
-    <!-- Buttons -->
-    <div class="row">
-        <div class="col-xs-6 col-md-2 col-md-offset-4">
-            <div id="newQuote" class="buttons">
-                <h3 class="buttonText">New Quote</h3> </div>
+<head>
+    <title>FCC - Random Quote Machine</title>
+    <meta name="description" content="A FCC project to practice working with an api. This app will deliver inspiring quotes on demand!">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> </head>
+
+<body>
+    <div id="pageContainer" class="container">
+        <!-- Header -->
+        <div class="row">
+            <div id="title" class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 header">
+                <h1>Random Quote Machine</h1> </div>
         </div>
-        <div class="col-xs-6 col-md-2">
-            <div id="twitterButton" class="buttons">
-                <a id="tweet" title="Tweet this quote!" target="_blank">
-                    <h3 class="buttonText">Tweet this!</h3> </a>
+        <!-- Quote -->
+        <div class="row">
+            <div id="inspiringQuote" class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 quoteContent">
+                <h2 id="quote"></h2>
+                <h2 id="author"></h2> </div>
+        </div>
+        <!-- Buttons -->
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-4">
+                <div id="newQuote" class="buttons">
+                    <h3>New Quote</h3> </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div id="twitterButton" class="buttons">
+                    <a id="tweet" title="Tweet this quote!" target="_blank">
+                        <h3>Tweet this!</h3> </a>
+                </div>
             </div>
         </div>
-        <div class="col-md-4"></div>
+        <!-- footer -->
+        <div id="madeBy" class="footer">
+            <p>Designed & coded by <a href="http://ddryburugh.com/">Doug Dryburgh</a></p>
+        </div>
     </div>
-    <!-- footer -->
-    <div id="madeBy" class="footer">
-        <p class="footerStyle">Designed & coded by <a href="#">doug20000</a></p>
-    </div>
-</div>
-        
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/js.js"></script>
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
 </html>
+<!-- Credits
+1) Fonts: https://fonts.google.com/specimen/Coming+Soon?selection.family=Coming+Soon
+https://fonts.google.com/specimen/Handlee
+-->

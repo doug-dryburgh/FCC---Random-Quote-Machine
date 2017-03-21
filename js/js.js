@@ -6,16 +6,10 @@ $(document).ready(function () {
     }, function () {
         $(this).css("background-color", "rgba(0, 0, 0, 0.7)");
     });
-    /* content animation - discontinued
-    $("#inspiringQuote, #title").hover(function () {
-        $(this).css("background-color", "rgba(0, 0, 0, 0.75)");
-    }, function () {
-        $(this).css("background-color", "rgba(0, 0, 0, 0.7)");
-    }); */
 });
 //Generate quote
-var currentQuote = "";
-var currentAuthor = "";
+var currentQuote;
+var currentAuthor;
 
 function getQuote() {
     var url = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
@@ -35,6 +29,6 @@ function getQuote() {
     });
 }
 //New quote
-$("#newQuote").on("click", function () {
+$("#newQuote").click(function() {
     getQuote();
 });
